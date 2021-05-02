@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="cottom" description="바닐라 자바스크립트 연습">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>JSON - category</title>
+</head>
+<body>
+    <!-- logo -->
+    <button><img src="img/logo.png" alt="Logo" id="logo"></button>
+    
+    <!-- button -->
+    <section id="buttons">
+        <button class="btn imgBtn"><img src="img/blue_t.png" alt="tshirts" data-key="type" data-value="tshirts"></button>
+        <button class="btn imgBtn"><img src="img/blue_p.png" alt="pants" data-key="type" data-value="pants"></button>
+        <button class="btn imgBtn"><img src="img/blue_s.png" alt="skirts" data-key="type" data-value="skirts"></button>
+        <button class="btn colorBtn blue" data-key="color" data-value="blue">Blue</button>
+        <button class="btn colorBtn pink" data-key="color" data-value="pink">Pink</button>
+        <button class="btn colorBtn yellow" data-key="color" data-value="yellow">Yellow</button>
+    </section>
+
+    <!-- list -->
+    <ul id="items">
+        <li class="item">
+            <img src="img/pink_p.png" alt="" class="item__img"> 
+            <span class="item__description">female, small</span>
+        </li>
+    </ul>
+</body>
+</html>
